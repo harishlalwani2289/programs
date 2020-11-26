@@ -14,7 +14,7 @@ public class GetCheckDigit {
         for (i = 0; i < len; i++)
         {
             /* use i+1 since starting at 0 instead of 1 */
-            if ( ((i+1) % 2) == 0)
+            if ( ((i+1) % 2)== 0)
                 even_total += input.charAt(i) - '0';
             else
                 odd_total += input.charAt(i) - '0';
