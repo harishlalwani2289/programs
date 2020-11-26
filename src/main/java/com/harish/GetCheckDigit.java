@@ -4,7 +4,7 @@ public class GetCheckDigit {
     public static void main(String[] args) {
         long odd_total = 0;
         long even_total = 0;
-        long overall_total = 0;
+        long overall_total;
         int i;
         long len;
 
